@@ -46,7 +46,7 @@ document.addEventListener("keydown", (e) => {
   } else if (e.key === "s" || e.key === "S") {
     color2 = "orange"
     document.getElementById('dv5').style.backgroundColor = "orange";
-  } else if (e.key === "d" || e.key === "d") {
+  } else if (e.key === "d" || e.key === "D") {
     color2 = "skyblue"
     document.getElementById('dv5').style.backgroundColor = "skyblue";
   }
