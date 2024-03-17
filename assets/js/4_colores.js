@@ -1,4 +1,6 @@
-// colores inciales de las div
+/*=======================================================================
+  ======================== FUNCIONES 4_COLORES.HTML =======================
+  =======================================================================*/
 function pintar(color) {
   const divAzul = document.getElementById("dv1");
   divAzul.style.backgroundColor = "blue";
