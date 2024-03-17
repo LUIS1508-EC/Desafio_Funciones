@@ -21,16 +21,15 @@ pintar("green");
 pintar("yellow");
 
 //color negro
-let color = "black"
-
-const cajas = document.querySelectorAll(".caja");
-cajas.forEach((caja) => {
-caja.addEventListener("click", (evento) => pintarNegro(evento, color));
-});
-
-function pintarNegro(evento, color) {
-const caja = evento.currentTarget;
-caja.style.backgroundColor = color;
+const pintar3 = "";
+function pintarNegro(elemento, color){
+  chageTodosColor();
+  elemento.style.backgroundColor = color;
+}
+function chageTodosColor(){
+ document.getElementsByClassName(".negro > div").forEach(e =>{
+   e.style.backgroundColor = pintar3;
+ });
 }
 
 
@@ -46,7 +45,7 @@ document.addEventListener("keydown", (e) => {
   } else if (e.key === "d" || e.key === "d") {
       color2 = "skyblue"
       document.getElementById('dv5').style.backgroundColor = "skyblue";
-  } 
+  }
   
 })
 
