@@ -19,7 +19,7 @@ function pintar(color) {
   pintar("yellow");
 
 // evento a color negro
-let color = "black"
+const color = "black"
 
 const cajas = document.querySelectorAll(".caja");
 cajas.forEach((caja) => {

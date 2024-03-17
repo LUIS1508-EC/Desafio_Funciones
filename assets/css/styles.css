@@ -1,27 +1,23 @@
-.contenedor{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 50px;
+body{
+    text-align: center;
 }
-
-
-div{
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+#dv1, #dv2, #dv3, #dv4, #dv5 {
     width: 200px;
     height: 200px;
-}
+    border: 4px solid black;
+} 
 
-#div1{
-    background-color: red;
-}
-#div2{
-    background-color: blue;
-}
-#div3{
-    background-color: green;
-}
 
-#div4{
-    background-color:yellow;
+
+
+h5{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
 }
 
